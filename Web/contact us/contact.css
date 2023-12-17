@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif; */
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 308px;
+  background-color: #355977;
+}
+.nav {
+  width: 1072px;
+  height: 304px;
+  margin: 0 223.6px;
+}
+.nav1 {
+  background-color: #355977;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rectangle {
+  margin-right: 35px;
+}
+.sign {
+  border-width: 0;
+  padding: 0;
+  text-align: left;
+  white-space: normal;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 400;
+  letter-spacing: 0;
+  font-style: normal;
+  font-size: 16px;
+  color: #c5d2e1;
+  margin: 0 16px 0 0;
+}
+.get {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 99em;
+  padding: 0 16px;
+  font-size: 16px;
+  height: 37px;
+  line-height: 37px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #c5d2e1;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  border-color: #c5d2e1 !important;
+}
+.svg {
+  display: none;
+}
+.nav2 {
+  height: 186px;
+  line-height: 35px;
+  background-color: #355977;
+  margin: -5px 0 0 0;
+}
+.nav2 h1,
+h2 {
+  font-size: 38px;
+  color: #fff;
+}
+.nav2 h1 {
+  font-weight: 700;
+}
+.nav2 h2 {
+  font-weight: 400;
+}
+.nav2 p {
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 45px;
+  color: #bababa;
+}
+.nav3 {
+  height: 67px;
+  background-color: #355977;
+  display: flex;
+  margin-top: -5px;
+}
+.nav3 ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+  height: 50px;
+}
+.nav3 ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav3 .icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 505px;
+  margin-right: 35px;
+  position: relative;
+  right: 18px;
+}
+.main {
+  height: calc(100% - 308px);
+}
+.contact {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.contact-head {
+  color: #303031;
+  font-family: Segoe UI;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 0 0 225px;
+}
+.form {
+  width: 1050px;
+  height: 622px;
+  margin: 75px 0 100px 390px;
+  display: flex;
+  border-radius:  10px;
+}
+.form-left {
+  width: 741px;
+  height: 622px;
+  background-color: #355977;
+  border-radius:  10px;
+}
+.main-form {
+  margin: 145px 0 0 60px;
+  background-color: red;
+  width: 670px;
+  height: 341px;
+  display: flex;
+}
+input, label{
+  text-transform: uppercase;
+}
+.contact-form {
+  width: 88%;
+  margin: 10px 0 0 45px;
+  padding: 30px;
+  background-color: #355977;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #c5d2e1;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: none;
+}
+
+.contact-form button[type="submit"] {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #355977;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #c5d2e1;
+}
+@media (max-width: 575px) {
+  .contact {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+}
+  .form{
+    margin: 50px 0 0 40px;
+  }
+  .contact-head{
+    margin:  0 0 0 40px;
+    font-size: 30px;
+  }
+  .form{
+    width: 353px;
+    margin-bottom: 100px;
+  }
+  .contact-form {
+    width: 100%;
+    margin: 0px 0 100px 0px;
+    padding: 30px;
+    background-color: #355977;
+    color: #fff;
+}
+}
